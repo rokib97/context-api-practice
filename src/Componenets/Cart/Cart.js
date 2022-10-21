@@ -5,7 +5,7 @@ import Product from "../Product/Product";
 const Cart = () => {
   const { cart, setCart } = useContext(AppContext);
   return (
-    <div>
+    <div style={{ height: "80vh" }}>
       {cart.length === 0 ? (
         <h1 className="text-3xl font-bold my-4">
           Hello ! User . You don't have any cart added yet
